@@ -7,8 +7,17 @@
 // Download Docker Image
 docker image pull nginx:latest
 
-// Menjalankan Container
-docker container start contohnginx
-
 // Melakukan Port Forwarding
 docker container create --name contohnginx --publish 8080:80 nginx:latest
+
+// Melihat Container berjalan dan tidak berjalan
+docker container ls -a
+
+// Menjalankan Container
+docker container start contohnginx
+/// sudah bisa buka localhost 8080
+
+// Menghentikan Container
+docker container stop contohnginx
+
+
