@@ -1,4 +1,5 @@
 // pakai terminalnya ubuntu ya
+
 // Melihat Container berjalan dan tidak berjalan
 docker container ls -a
 // Melihat Container berjalan saja
