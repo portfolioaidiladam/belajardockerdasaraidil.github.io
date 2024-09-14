@@ -9,4 +9,4 @@ docker image ls
 docker image pull redis:latest
 
 // Menghapus Docker Image
-docker image rm alpine:latest
+docker image rm mongo:latest

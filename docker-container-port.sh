@@ -15,6 +15,7 @@ docker container ls -a
 
 // Menjalankan Container
 docker container start contohnginx
+
 /// sudah bisa buka localhost 8080
 
 // Menghentikan Container

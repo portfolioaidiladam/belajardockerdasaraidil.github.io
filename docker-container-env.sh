@@ -2,6 +2,8 @@
 // Dengan menggunakan environment variable, kita bisa mengubah-ubah konfigurasi aplikasi, tanpa harus mengubah kode
 // aplikasinya lagi
 
+// https://hub.docker.com/_/mongo cari Environment Variables
+
 // Download Docker Image
 docker image pull mongo:latest
 

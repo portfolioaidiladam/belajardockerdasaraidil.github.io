@@ -13,4 +13,5 @@ docker container start contohredis
 docker container logs contohredis
 
 // Melihat log secara realtime
+// urutannya harus nyalakan containernya dulu baru kesini
 docker container logs -f contohredis
